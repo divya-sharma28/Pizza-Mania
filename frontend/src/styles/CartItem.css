@@ -1,0 +1,26 @@
+.item-row{
+    padding: 10px;
+    box-shadow: 10px 6px 16px -9px rgba(0,0,0,0.55);
+}
+h5,h6{
+    margin: 0 10px !important;
+}
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quan-group{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.quan-btn{
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.quan-btn i{
+    color: black;
+}

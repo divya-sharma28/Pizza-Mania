@@ -1,0 +1,128 @@
+ .authenticate{
+    background-image: url('../assets/pizza-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding-top: 10px;
+
+}
+
+.tab-switch{
+    width: 40%;
+    position: absolute;
+    right: 20%;
+    top: 6%;
+    background-color: hsla(0, 5%, 8%, 0.811) !important;
+    border: 5px solid #ffee00;
+    border-radius: 15px;
+    padding-bottom: 15px;
+
+}
+
+h4{
+    color: #ffee00 !important;
+    margin: 20px 0 0 0 !important;
+
+}
+
+.auth-form{ 
+    padding: 20px 30px;
+    height: 70%;
+    text-align: right;
+
+
+}
+
+.input{
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    
+   }
+
+   .input:focus{
+    outline: none;
+    border: 2px solid #ffee00;
+   }
+
+   .password-box{
+    position: relative;
+   }
+
+   .password-box i{
+    position: absolute;
+    right: 5%;
+    top: 53% !important;
+    cursor: pointer;
+   }
+
+   .tab-switch button{
+        background-color: #ffee00;
+        color: black !important;
+        display: block;
+        margin: 20px auto 0;
+        width: 100%;
+        border-radius: 18px;
+        padding: 9px;
+        border: none;
+
+
+   }
+
+   .tab-switch button:hover{
+        background-color: orange;
+   }
+
+   .error-msg{
+    color: yellow;
+    text-align: end !important;
+    font-size: 13px;
+    margin-top: 2px;
+
+
+}
+
+
+.auth-link{
+    margin: auto;
+    color: yellow;
+    font-weight: lighter;
+    text-decoration: none;
+    padding-bottom: 3px;
+    /* border-bottom: 1px solid yellow; */
+    font-style: italic;
+}
+
+h6{
+    margin: 10px 0 !important;
+}
+
+
+
+@media screen and (max-width:426px) {
+    .tab-switch{
+        width: 80%;
+        margin:auto;
+        position: unset;
+        
+    }
+
+    .auth-form{
+        padding: 15px;
+    }
+}
+@media screen and (min-width:427px) and (max-width:769px) {
+    .tab-switch{
+        width: 60%;
+        margin:auto;
+        top: 10px;
+        right: 10%;
+        
+    }
+
+    .auth-form{
+        padding: 15px;
+    }
+}

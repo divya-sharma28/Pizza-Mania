@@ -1,0 +1,17 @@
+#root {
+  max-width: 1280px;
+  padding: 2rem;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+  background-color: #212529;
+  color: white;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin-bottom: 0 !important;
+}

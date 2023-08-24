@@ -1,0 +1,15 @@
+.order-btn{
+    background-color: #ffee00 !important;
+    color: black !important;
+    border: none !important;
+}
+
+.cartSum span{
+    color: #ffee00;
+}
+
+
+.cartSum{
+    position: sticky !important;
+    top: 13.8%;
+}

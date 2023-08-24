@@ -1,0 +1,44 @@
+.brandName{
+    font-family: 'Damion', cursive ;
+    color: #ffee00 !important; 
+    text-decoration: none;
+}
+
+.navlink{
+    color: #ffee00 !important;
+    font-weight:500 !important;
+    text-decoration: none;
+    margin: 10px 20px;
+    /* padding: 0 !important; */
+
+}
+
+.navdrop{
+    background-color: transparent;
+    color: #ffee00;
+    border: none;
+    padding: 0;
+    height: 30px !important;
+}
+
+.navbar p{
+    cursor: pointer;
+}
+
+.logo{
+    width: 100%;
+    max-width: 200px;
+    min-width: 100px;
+    height: auto;
+}
+
+.offcanvas{
+    width: 150px !important;
+    background-color: black !important;
+    padding: 20px 10px;
+}
+
+.navbar-toggler{
+    border: none !important;
+    color: transparent !important;
+}
