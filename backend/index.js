@@ -13,7 +13,7 @@ dotenv.config()
 
 const app = express()
 const port = process.env.PORT || 5000
-const db = process.env.DB
+const db = mongodb+srv://divya1234:divya1234@cluster0.0k1wbyf.mongodb.net
 
 // var corsOptions = {
 //   origin: ['http://localhost:5173','http://localhost:5174'],
