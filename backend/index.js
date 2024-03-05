@@ -15,11 +15,12 @@ const app = express()
 const port = process.env.PORT || 5000
 const db = process.env.DB
 
-var corsOptions = {
-  origin: ['http://localhost:5173','http://localhost:5174'],
-  optionsSuccessStatus:200
-}
-app.use(cors(corsOptions));
+// var corsOptions = {
+//   origin: ['http://localhost:5173','http://localhost:5174'],
+//   optionsSuccessStatus:200
+// }
+// app.use(cors(corsOptions));
+app.use(cors());
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
