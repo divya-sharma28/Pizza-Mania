@@ -60,7 +60,7 @@ export const paymentVerification = async (req, res) => {
 
       const expectedSignature = crypto
 
-         .createHmac("sha256",process.env.KEY_SECRET)
+         .createHmac("sha256","ivtGFMCUVuUwZBZLy50XG8yp")
 
          .update(body.toString())
 
@@ -105,7 +105,7 @@ export const razorpayKey = (req, res) => {
    try {
 
       res.status(200).json({
-         key: process.env.KEY_ID
+         key:"rzp_test_4XcyszlCMGMfOn"
       })
    } catch (error) {
       res.status(500).json({
